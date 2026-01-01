@@ -459,7 +459,7 @@ button:hover {
       }
 
       .lower {
-      }
+      
       .img {
         background-color: rgb(52, 54, 90);
         padding: 14px;
@@ -494,4 +494,5 @@ button:hover {
       }
     }
   }
+}
 }
