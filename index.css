@@ -691,8 +691,12 @@ button:hover {
       padding: 1rem;
       border: 0;
       width: 188px;
-      margin-top: 15px;
+      margin-top: 5px;
     }
+        button:hover {
+  background-color: azure;
+  color: rgb(232, 11, 11);
+}
   }
   .bot {
     width: 100%;
@@ -702,5 +706,158 @@ button:hover {
     z-index: -1;
     top: 5958px;
     height: 57vh;
+  }
+}
+#section-10 {
+  width: 100%;
+  height: 200vh;
+  background-color: #34365a;
+  margin-top: 288px;
+  .boss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 90%;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 300px;
+      color: rgb(255, 255, 255);
+    }
+    .perant-boxs {
+      width: 100%;
+      height: 265px;
+      position: relative;
+
+      .son-boxs-1 {
+        left: 6%;
+        bottom: 409%;
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(255, 255, 255);
+      }
+      .son-boxs-2 {
+        left: 29%;
+        bottom: 409%;
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(255, 255, 255);
+      }
+      .son-boxs-3 {
+        left: 53%;
+        bottom: 409%;
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(255, 255, 255);
+      }
+      .son-boxs-4 {
+        left: 76%;
+        bottom: 409%;
+        position: absolute;
+        height: 100%;
+        width: 20%;
+        background-color: rgb(255, 255, 255);
+      }
+      .typ {
+        padding: 30px;
+        p {
+          color: rgb(102, 102, 102);
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 25.6px;
+          text-align: center;
+        }
+        h3 {
+          color: rgb(241, 187, 19);
+          font-size: 72px;
+          font-weight: 700;
+          margin-top: 19px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  height: 200vh;
+  background-color: #34365a;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+
+  .right-f {
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    h3 {
+      color: rgb(255, 255, 255);
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 50.4px;
+      padding-bottom: 15px;
+    }
+    h6 {
+      font-size: 37px;
+      font-style: italic;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      line-height: 32.4px;
+      text-align: left;
+      padding-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+      color: rgb(255, 255, 255);
+    }
+  }
+  .mid {
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 24px;
+      color: rgb(255, 255, 255);
+      padding-bottom: 15px;
+    }
+    h6 {
+      font-size: 16px;
+      line-height: 25.6px;
+      color: rgb(255, 255, 255);
+    }
+  }
+  .left-f {
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .input {
+      width: 234px;
+      height: 42px;
+    }
+    textarea {
+      width: 243px;
+      height: 169px;
+    }
+       button {
+      background-color: rgb(241, 187, 19);
+      color: #111111;
+      border-radius: 2rem;
+      padding: 1rem;
+      border: 0;
+      width: 290px;
+      margin-top: 5px;
+    }
+    button:hover {
+  background-color: azure;
+  color: rgb(51, 51, 51);
+}
   }
 }
